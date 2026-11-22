@@ -8,6 +8,30 @@ header nav{gap:20px}.history-update{padding-top:28px;font-size:13px}.testimony-w
 .brand-memorial{display:block;width:64px;height:90px;object-fit:contain;flex:0 0 64px;border:1px solid #b9b4a9;border-radius:3px;background:#171717}.brand{min-width:0}@media(max-width:600px){.brand-memorial{width:57px;height:81px;flex-basis:57px}.brand{gap:12px}}
 
 /* Documents archive */
+.archive-breadcrumb{font-size:1rem;margin-bottom:28px;color:var(--muted);display:flex;flex-wrap:wrap;gap:10px}
+.archive-back{display:inline-block;font-size:1rem;margin-top:8px}
+.archive-category-medical .button{font-size:1rem;margin-top:auto;justify-content:center;text-align:center;gap:0}
+.archive-category-medical>p:not(.eyebrow){font-size:1rem}
+.archive-category-medical .archive-category-count{font-size:.875rem!important;margin-bottom:24px}
+.archive-clinic-logo{display:block;width:280px;max-width:100%;height:auto;margin-bottom:28px}
+.archive-document-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:32px}
+.archive-document-actions .button{font-size:1rem;padding:10px 20px;justify-content:center}
+.archive-document-actions span{font-size:.875rem;color:var(--muted)}
+.archive-document-transcript{margin-top:24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.archive-document-transcript summary{font-size:1rem;font-weight:600;padding:20px 0}
+.archive-transcript-page{padding:24px 0;border-top:1px solid var(--line)}
+.archive-transcript-page h4{font-size:1.125rem;margin:0 0 16px}
+.archive-transcript-text{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.8}
+.archive-document-images{margin-top:36px}
+.archive-medical-gallery{display:grid;gap:28px;margin-top:24px}
+.archive-medical-gallery figure{margin:0}
+.archive-image-button{display:block;width:100%;padding:0;border:1px solid var(--line);background:#fff;cursor:zoom-in}
+.archive-image-button img{display:block;width:100%;height:auto}
+.archive-medical-gallery figcaption{font-size:.875rem;color:var(--muted);margin-top:12px}
+.archive-medical-gallery figcaption a{display:inline-block;margin-left:8px}
+#archive .archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:760px){#archive .archive-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.archive-document-actions .button{width:100%}.archive-document-actions span{flex-basis:100%}}
 .archive-document{margin-bottom:36px;padding:32px;border:1px solid var(--line);background:#fcfbf7;min-width:0}
 .archive-document .eyebrow{font-size:.875rem;margin-bottom:16px}
 .archive-document h2{font-size:clamp(28px,3vw,38px);line-height:1.2;margin-bottom:16px}
