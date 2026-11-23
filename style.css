@@ -10,12 +10,11 @@ header nav{gap:20px}.history-update{padding-top:28px;font-size:13px}.testimony-w
 /* Documents archive */
 .archive-breadcrumb{font-size:1rem;margin-bottom:28px;color:var(--muted);display:flex;flex-wrap:wrap;gap:10px}
 .archive-back{display:inline-block;font-size:1rem;margin-top:8px}
-.archive-category-medical .button{font-size:1rem;margin-top:auto;justify-content:center;text-align:center;gap:0}
-.archive-category-medical>p:not(.eyebrow){font-size:1rem}
-.archive-document-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;border-top:1px solid var(--line);padding-top:20px;margin-top:auto}
-.archive-document-row h3{margin:0;font:400 .875rem/1.45 Arial,sans-serif;overflow-wrap:anywhere}
-.archive-category-medical .archive-document-row .button{margin:0;padding:10px 12px;font-size:.875rem;white-space:nowrap}
-@media(max-width:600px){.archive-document-row{gap:10px}.archive-category-medical .archive-document-row .button{max-width:104px;padding:9px 10px;font-size:.8125rem;white-space:normal}}
+.archive-document-list{padding-top:64px;padding-bottom:80px}
+.archive-document-row{display:grid;grid-template-columns:minmax(0,max-content) auto;justify-content:start;align-items:center;gap:24px}
+.archive-document-row h1{margin:0;font:400 .875rem/1.45 Arial,sans-serif;letter-spacing:normal;overflow-wrap:anywhere}
+.archive-document-row .button{margin:0;min-height:44px;padding:10px 12px;font-size:.875rem;white-space:nowrap;justify-content:center;text-align:center;gap:0}
+@media(max-width:600px){.archive-document-list{padding-top:36px;padding-bottom:48px}.archive-document-row{gap:12px}.archive-document-row .button{max-width:104px;padding:9px 10px;font-size:.8125rem;white-space:normal}}
 .archive-clinic-logo{display:block;width:280px;max-width:100%;height:auto;margin-bottom:28px}
 .archive-document-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:32px}
 .archive-document-actions .button{font-size:1rem;padding:10px 20px;justify-content:center}
