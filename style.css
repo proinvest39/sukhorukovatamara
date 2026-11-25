@@ -7,11 +7,12 @@ header nav{gap:20px}.history-update{padding-top:28px;font-size:13px}.testimony-w
 
 .brand-memorial{display:block;width:64px;height:90px;object-fit:contain;flex:0 0 64px;border:1px solid #b9b4a9;border-radius:3px;background:#171717}.brand{min-width:0}@media(max-width:600px){.brand-memorial{width:57px;height:81px;flex-basis:57px}.brand{gap:12px}}
 
-/* Homepage links */
-.memory-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px}
-.pikabu-post-link{display:inline-flex;flex:0 0 48px;width:48px;height:48px;border-radius:10px;overflow:hidden}
-.pikabu-post-link img{display:block;width:100%;height:100%}
-.pikabu-post-link:hover{box-shadow:0 0 0 2px var(--green)}
+/* Header post link */
+header nav{align-items:center}
+header nav .nav-end{display:inline-flex;align-items:center;gap:12px;white-space:nowrap}
+header nav .pikabu-post-link{display:inline-flex;flex:0 0 44px;width:44px;height:44px;padding:4px;border:0;border-radius:10px;justify-content:center;gap:0}
+.pikabu-post-link img{display:block;width:36px;height:36px;border-radius:7px}
+.pikabu-post-link:hover{background:var(--pale)}
 
 /* Documents archive */
 .archive-breadcrumb{font-size:1rem;margin-bottom:28px;color:var(--muted);display:flex;flex-wrap:wrap;gap:10px}
